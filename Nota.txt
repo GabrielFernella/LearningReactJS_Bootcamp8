@@ -7,7 +7,7 @@
 7 - yarn add webpack-dev-server -D (biblioteca para reiniciar o servidor automaticamente enquanto desenvolve)
 8 - yarn add style-loader css-loader -D (Loaders para CSS)
 9 - yarn add file-loader -D (Loader para Files(importação de imagens))
-10 - 
+10 - yarn add @babel/plugin-proposal-class-properties -D (plugin enxuta para propriedades de classes)
 11 - 
 12 - 
 13 - 
