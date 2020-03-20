@@ -5,8 +5,8 @@
 5 - yarn add babel-loader -D
 6 - yarn build (depois de ter gerado o script dele no package.json)
 7 - yarn add webpack-dev-server -D (biblioteca para reiniciar o servidor automaticamente enquanto desenvolve)
-8 - yarn add style-loader css-loader -D (Bibliotecas Loaders)
-9 - 
+8 - yarn add style-loader css-loader -D (Loaders para CSS)
+9 - yarn add file-loader -D (Loader para Files(importação de imagens))
 10 - 
 11 - 
 12 - 

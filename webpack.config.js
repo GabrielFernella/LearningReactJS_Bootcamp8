@@ -24,7 +24,15 @@ module.exports = {
                     { loader: 'style-loader' }, //serve para importar arquivos CSS
                     { loader: 'css-loader' } //outros tipode de imports suportados pelo css
                 ]
-            }
+            },
+            {
+                test: /.*\.(gif|png|jpe?g)$/i,
+                use: {
+                    loader: 'file-loader'
+                }
+            },
+            
+
         ]
     }
 };
