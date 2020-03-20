@@ -25,7 +25,7 @@ class TechList extends Component {
     }
 
     handleDelete = (tech) => {
-        this.setState({ techs: this.state.techs.filter(t => t != tech)})
+        this.setState({ techs: this.state.techs.filter(t => t != tech) })
     }
 
 
@@ -40,7 +40,8 @@ class TechList extends Component {
                     onDelete={() => this.handleDelete(tech)} 
                 />
                 )}
-                
+
+
             </ul>
             <input type='text' 
             onChange={this.handleImputChange} 
